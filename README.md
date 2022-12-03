@@ -9,10 +9,13 @@ This Repository is for the model proposed by Tech Phantoms Team during the devfe
     <br />
     <br />
 Falls that are not detected in time are a major health risk for the elderly. With today's home automation or smart sensors, in 6 out of 7 falls, someone is only there after 5 minutes to help the client. In addition, healthcare personnel are inundated with false alarms.
-<p align="center">
-<img src="examples/savio demo.gif" width="420" />
-</p>
 
+
+## Solution
+To get rid of the previous problems at a lower cost, we developed a new monitoring system, based on a computer vision model that uses Mediapipe to detect landmarks and then, based on these landmarks and other mathematical formulas, predict whether or not there is a fall with an estimate of the most damaged body part.
+<p align="center">
+<img src="examples/savio demo.gif" width="620" />
+</p>
 ## Setup
 
 ```shell script
