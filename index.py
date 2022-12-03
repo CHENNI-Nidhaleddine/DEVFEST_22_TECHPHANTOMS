@@ -49,7 +49,7 @@ with mp_pose.Pose(
     else :
       if (abs(results.pose_landmarks.landmark[0].y-results.pose_landmarks.landmark[28].y)<0.5) or (abs(results.pose_landmarks.landmark[0].y-results.pose_landmarks.landmark[27].y)<0.5) and (abs(results.pose_landmarks.landmark[24].y-results.pose_landmarks.landmark[28].y)<0.5) or (abs(results.pose_landmarks.landmark[0].y-results.pose_landmarks.landmark[27].y)<0.5): 
           if(n==0):
-            res='fall position, alert Head fall'
+            res='fall position, alert Arm fall'
             then=datetime.now()
             #print(abs(y_1-y_2)/abs(float(now.timestamp())-float(then.timestamp())))
             now=datetime.now()
