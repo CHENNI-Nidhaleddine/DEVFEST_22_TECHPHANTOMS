@@ -8,10 +8,7 @@
 This Repository is for the model proposed by Tech Phantoms Team during the devfest22
     <br />
     <br />
-We augment human pose estimation
-(openpifpaf library) by support for multi-camera and multi-person tracking and a long short-term memory (LSTM)
-neural network to predict two classes: “Fall” or “No Fall”. From the poses, we extract five temporal and spatial
-features which are processed by an LSTM classifier.
+Falls that are not detected in time are a major health risk for the elderly. With today's home automation or smart sensors, in 6 out of 7 falls, someone is only there after 5 minutes to help the client. In addition, healthcare personnel are inundated with false alarms.
 <p align="center">
 <img src="examples/savio demo.gif" width="420" />
 </p>
