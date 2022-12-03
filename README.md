@@ -16,8 +16,8 @@ To get rid of the previous problems at a lower cost, we developed a new monitori
 <p align="center">
 <img src="examples/savio demo.gif" width="620" />
 </p>
-## Setup
 
+## Setup
 ```shell script
 pip install -r requirements.txt
 ```
@@ -26,3 +26,9 @@ pip install -r requirements.txt
 ```shell script
 python3 index.py
 ```
+## Team members
+<li>Ayoub Khenfouf</li>
+<li>Hanad Nada</li>
+<li>Bendaho Sarra</li>
+<li>Belkacemi Meriem</li>
+<li>Chenni Nidhal Eddine</li>
